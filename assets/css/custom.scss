@@ -1,0 +1,16 @@
+/* Сайдбар */
+.sidebar {
+  position: relative !important;
+  right: 0 !important;
+  width: 300px;
+  flex-shrink: 0;
+  order: 2; /* Перемещаем вправо */
+  border-left: 1px solid #2a2a2a;
+  padding-left: 20px;
+}
+
+/* Шапка */
+.site-header {
+  margin-bottom: 30px;
+  width: 100%;
+}

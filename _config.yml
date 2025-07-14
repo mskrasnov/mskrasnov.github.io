@@ -1,0 +1,15 @@
+title: Michail Krasnov
+theme: jekyll-theme-hacker
+
+collections:
+  articles:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+plugins:
+  - jekyll-sass-converter
