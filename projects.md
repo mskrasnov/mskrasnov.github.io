@@ -10,6 +10,8 @@ layout: default
 
 > Пока ещё не закончил работу; исходники выложу, как только выйдет версия 0.1.0.
 
+> Ссылка на [GitHub-репозиторий](https://github.com/mskrasnov/Ferrix)
+
 ## TimeKeeper
 
 Simple cross-platform worktime tracker. It periodically reminds users to take breaks while working on their computers.
