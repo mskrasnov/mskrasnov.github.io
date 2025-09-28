@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Сайт программы Ferrix
 ---
 
 <div align="center"><h1>Ferrix</h1></div>
