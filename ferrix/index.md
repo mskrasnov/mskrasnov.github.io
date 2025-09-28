@@ -3,7 +3,11 @@ layout: default
 title: Сайт программы Ferrix
 ---
 
-<div align="center"><h1>Ferrix</h1></div>
+<div align="center">
+  <h1>Ferrix</h1>
+
+  <p><a href="https://github.com/mskrasnov/Ferrix/releases/tag/v0.1.0">Скачать тестовую версию</a></p>
+</div>
 
 Ferrix - программа для мониторинга состояния системы в реальном времени, предназначенная для ОС Linux. Присутствует поддержка экспорта собранных данных в форматы JSON и XML. Находится на ранней стадии разработки. Хотелось бы выпустить версию 1.0.0 к концу 2025.
 
