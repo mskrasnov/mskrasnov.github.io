@@ -8,10 +8,12 @@ title: FSM - Простой системный монитор для Linux
   <h3>Ещё один системный профайлер для Linux</h3>
 
   <p><b>
-    <a href="https://github.com/mskrasnov/FSM/releases/latest">Скачать тестовую версию</a> |
+    <a href="https://github.com/mskrasnov/FSM/releases/latest">Скачать последнюю версию</a> |
     <a href="https://github.com/mskrasnov/FSM/wiki">WiKi проекта</a> с более подробными сведениями
   </b></p>
 </div>
+
+---
 
 FSM - простой системный профайлер для современных дистрибутивов Linux, находится на ранней стадии разработки, но уже сейчас реализована б*о*льшая часть функционала.
 
