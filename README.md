@@ -11,3 +11,5 @@ title: I love dumplings.
 ## Связь со мной
 
 Пожалуйста, пишите только на почту: <mskrasnov07@ya.ru>. Не факт, что смогу ответить быстро.
+
+[GitHub](https://github.com/mskrasnov) | [GitVerse](https://gitverse.ru/mskrasnov)
