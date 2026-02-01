@@ -10,7 +10,8 @@ title: FSM - Простой системный монитор для Linux
   <p><b>
     <a href="https://github.com/mskrasnov/FSM/releases/latest">Скачать последнюю версию</a> |
     <a href="https://github.com/mskrasnov/FSM">GitHub проекта</a> с более подробными сведениями |
-    <a href="./gallery.html">Скриншоты</a>
+    <a href="./gallery.html">Скриншоты</a> |
+    <a href="https://boosty.to/mskrasnov">Boosty</a>
   </b></p>
 </div>
 
@@ -30,21 +31,21 @@ FSM - простой системный профайлер для совреме
 
 ### Краткие сведения о ПК в виде карточек
 
-<div align="center"><a href="assets/dashboard.png"><img src="assets/dashboard.png" width="50%"></a></div>
+<div align="center"><a href="assets/dashboard.png"><img src="assets/opt/dashboard.png" width="50%"></a></div>
 
 После запуска программы пользователя будет встречать обзорная страница с краткими сведениями о ПК и установленной на него ОС.
 
 ### Простой формат представления данных
 
-<div align="center"><a href="assets/tables.png"><img src="assets/tables.png" width="50%"></a></div>
+<div align="center"><a href="assets/tables.png"><img src="assets/opt/tables.png" width="50%"></a></div>
 
-<div align="center"><a href="assets/sysmon.png"><img src="assets/sysmon.png" width="50%"></a></div>
+<div align="center"><a href="screens/sysmon.png"><img src="screens/opt/sysmon.png" width="50%"></a></div>
 
 В отличие от Hardinfo и аналогов, в Ferrix почти всё отображается в виде лент с таблицами. Для некоторых пунктов таблицы приведены всплывающие подсказки с описанием параметров - просто наведите мышь на нужный пункт таблицы.
 
 ### Поддержка современных технологий
 
-<div align="center"><a href="assets/systemd.png"><img src="assets/systemd.png" width="50%"></a></div>
+<div align="center"><a href="assets/systemd.png"><img src="assets/opt/systemd.png" width="50%"></a></div>
 
 В работе над Ferrix сделан упор на поддержку современных технологий. Пока что эта программа умеет отображать сведения о сервисах `systemd`. Интеграция с этим системным менеджером всё ещё далека от завершения - в скором времени я планирую добавить ещё ряд функций, связанных с `systemd`.
 
