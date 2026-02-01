@@ -23,7 +23,7 @@ FSM - простой системный профайлер для совреме
 
 На данный момент поддерживаются архитектур `x86_64`, `i686` и `aarch64` (триплеты: `{x86_64,i686,aarch64}-unknown-linux-gnu`).
 
-[Скачать последнюю версию](https://github.com/mskrasnov/FSM/releases/latest) | [Репозиторий для Debian](https://gitverse.ru/mskrasnov/-/packages/debian/ferrix-app/0.4.0-1?tab=packages)
+[Скачать последнюю версию](https://github.com/mskrasnov/FSM/releases/latest) | [Репозиторий для Debian](https://gitverse.ru/mskrasnov/-/packages/debian/ferrix-app/0.5.1-1?tab=packages)
 
 ## Функции
 
