@@ -10,7 +10,7 @@ title: FSM - Галерея
   <p><b>
     <a href="https://github.com/mskrasnov/FSM/releases/latest">Скачать последнюю версию</a> |
     <a href="https://github.com/mskrasnov/FSM">GitHub проекта</a> с более подробными сведениями |
-    <a href="./index.md">Вернуться на главную</a>
+    <a href="./index.html">Вернуться на главную</a>
   </b></p>
 </div>
 

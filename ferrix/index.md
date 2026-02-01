@@ -10,7 +10,7 @@ title: FSM - Простой системный монитор для Linux
   <p><b>
     <a href="https://github.com/mskrasnov/FSM/releases/latest">Скачать последнюю версию</a> |
     <a href="https://github.com/mskrasnov/FSM">GitHub проекта</a> с более подробными сведениями |
-    <a href="./gallery.md">Скриншоты</a>
+    <a href="./gallery.html">Скриншоты</a>
   </b></p>
 </div>
 
