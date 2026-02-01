@@ -98,7 +98,13 @@ Not implemented yet // Ещё не реализовано.
 
 ## Settings (Настройки)
 
+Settings from FSM v0.5.1:
+
 <div align="center"><a href="screens/settings.png"><img src="screens/settings.png" width="60%"></a></div>
+
+New settings (FSM v0.6.0):
+
+<div align="center"><a href="screens/new_settings.png"><img src="screens/new_settings.png" width="60%"></a></div>
 
 ## About (О программе)
 
