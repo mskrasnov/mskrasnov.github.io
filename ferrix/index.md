@@ -39,7 +39,7 @@ FSM - простой системный профайлер для совреме
 
 <div align="center"><a href="assets/tables.png"><img src="assets/opt/tables.png" width="50%"></a></div>
 
-<div align="center"><a href="screens/sysmon.png"><img src="screens/opt/sysmon.png" width="50%"></a></div>
+<div align="center"><a href="screens/sysmon-new.png"><img src="screens/opt/sysmon-new.png" width="50%"></a></div>
 
 В отличие от Hardinfo и аналогов, в Ferrix почти всё отображается в виде лент с таблицами. Для некоторых пунктов таблицы приведены всплывающие подсказки с описанием параметров - просто наведите мышь на нужный пункт таблицы.
 

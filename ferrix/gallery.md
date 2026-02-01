@@ -22,7 +22,13 @@ title: FSM - Галерея
 
 ## System Monitor (Системный монитор)
 
+System Monitor from FSM v0.5.1:
+
 <div align="center"><a href="screens/sysmon.png"><img src="screens/opt/sysmon.png" width="60%"></a></div>
+
+New System Monitor (FSM v0.6.0):
+
+<div align="center"><a href="screens/sysmon-new.png"><img src="screens/opt/sysmon-new.png" width="60%"></a></div>
 
 ## Processors (Процессоры)
 
