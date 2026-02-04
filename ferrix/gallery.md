@@ -33,7 +33,13 @@ New System Monitor (FSM v0.6.0):
 
 ## Processors (Процессоры)
 
+Processors from FSM v0.5.1:
+
 <div align="center"><a href="screens/proc.png"><img src="screens/opt/proc.png" width="60%"></a></div>
+
+New Processors (FSM v0.6.0):
+
+<div align="center"><a href="screens/proc_new.png"><img src="screens/opt/proc_new.png" width="60%"></a></div>
 
 ## CPU Frequencies (Частоты ЦП)
 
