@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
   <style>
-    /* Основные отступы */
     body {
       padding: 20px !important;
       max-width: 1200px;
@@ -15,43 +14,33 @@
       text-align: justify;
     }
 
-    /* Гибкий контейнер */
     .container {
       display: flex;
       flex-direction: column;
-      /* Меняем направление на вертикальное */
       gap: 40px;
       margin-top: 20px;
     }
 
-    /* Основной контент */
     .content {
       min-width: 0;
-      /* Фикс для переполнения */
       order: 1;
-      /* Основной контент сверху */
     }
 
     .sidebar {
       position: relative;
-      /* Убираем фиксированное позиционирование */
       right: auto;
       top: auto;
       width: 100%;
-      /* На всю ширину */
       background: #0f0f0f;
       z-index: 1;
       order: 2;
-      /* Сайдбар снизу */
       margin-top: 20px;
     }
 
     @media (min-width: 769px) {
 
-      /* ТОЛЬКО ДЛЯ ДЕСКТОПОВ */
       .container {
         flex-direction: row;
-        /* Горизонтальное расположение */
       }
 
       .sidebar {
@@ -61,14 +50,12 @@
         width: 250px;
         max-width: 30%;
         order: 2;
-        /* Сайдбар справа */
         margin-top: 20px;
       }
 
       .content {
         flex: 1;
         order: 1;
-        /* Основной контент слева */
         margin-right: 270px;
       }
     }
