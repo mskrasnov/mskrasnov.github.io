@@ -55,5 +55,5 @@ title: /proc/cpuinfo (x86_64)
 ---
 
 <div align="center">
-  <a href="index.html">Назад</a>
+  <a href="../index.html">Назад</a>
 </div>
