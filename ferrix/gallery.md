@@ -23,21 +23,9 @@ title: FSM - Галерея
 
 ## System Monitor (Системный монитор)
 
-System Monitor from FSM v0.5.1:
-
-<div align="center"><a href="screens/sysmon.png"><img src="screens/opt/sysmon.png" width="60%"></a></div>
-
-New System Monitor (FSM v0.6.0):
-
 <div align="center"><a href="screens/sysmon-new.png"><img src="screens/opt/sysmon-new.png" width="60%"></a></div>
 
 ## Processors (Процессоры)
-
-Processors from FSM v0.5.1:
-
-<div align="center"><a href="screens/proc.png"><img src="screens/opt/proc.png" width="60%"></a></div>
-
-New Processors (FSM v0.6.0):
 
 <div align="center"><a href="screens/proc_new.png"><img src="screens/opt/proc_new.png" width="60%"></a></div>
 
@@ -110,12 +98,6 @@ Not implemented yet // Ещё не реализовано.
 <div align="center"><a href="screens/misc.png"><img src="screens/opt/misc.png" width="60%"></a></div>
 
 ## Settings (Настройки)
-
-Settings from FSM v0.5.1:
-
-<div align="center"><a href="screens/settings.png"><img src="screens/opt/settings.png" width="60%"></a></div>
-
-New settings (FSM v0.6.0):
 
 <div align="center"><a href="screens/new_settings.png"><img src="screens/opt/new_settings.png" width="60%"></a></div>
 
