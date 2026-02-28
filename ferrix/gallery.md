@@ -45,6 +45,10 @@ title: FSM - Галерея
 
 <div align="center"><a href="screens/fs.png"><img src="screens/opt/fs.png" width="60%"></a></div>
 
+## Network Interfaces (Сетевые интерфейсы)
+
+<div align="center"><a href="screens/net.png"><img src="screens/opt/net.png" width="60%"></a></div>
+
 ## DMI Tables (Таблицы DMI)
 
 <div align="center"><a href="screens/dmi.png"><img src="screens/opt/dmi.png" width="60%"></a></div>
@@ -99,7 +103,7 @@ Not implemented yet // Ещё не реализовано.
 
 ## Settings (Настройки)
 
-<div align="center"><a href="screens/new_settings.png"><img src="screens/opt/new_settings.png" width="60%"></a></div>
+<div align="center"><a href="screens/settings.png"><img src="screens/opt/settings.png" width="60%"></a></div>
 
 ## About (О программе)
 
