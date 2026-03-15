@@ -34,7 +34,7 @@ FSM - простой системный профилировщик для Linux 
 
 Simple cross-platform worktime tracker. It periodically reminds users to take breaks while working on their computers.
 
-![](https://timekeepersoft.github.io/assets/v1.1.0/main_win.png)
+<img src="https://timekeepersoft.github.io/assets/v1.1.0/main_win.png" width="75%">
 
 > Ссылка на [GitHub-репозиторий](https://github.com/TimeKeeperSoft/TimeKeeper)
 
