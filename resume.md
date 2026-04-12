@@ -6,7 +6,7 @@ title: Резюме
 
 [Краткая версия в формате *.pdf](resume.pdf) | [Более полная версия в формате *.pdf](resume-full.pdf)
 
-**Желаемая должность:** стажёр / junior-разработчик (Rust, Linux, Python)<br>**Место работы:** готов работать удалённо или очно в Дзержинске.<br>**Занятость:** полная, частичная, стажировка<br>**Ключевые слова:** ==linux rust python excel powerbi bash git ai==
+**Желаемая должность:** стажёр / junior-разработчик (Rust, Linux, Python)<br>**Место работы:** готов работать удалённо или очно в Дзержинске.<br>**Занятость:** полная, частичная, стажировка<br>**Ключевые слова:** `linux rust python excel powerbi bash git ai`
 
 ## Контакты
 | <mskrasnov07@ya.ru> | [GitHub: @mskrasnov](https://github.com/mskrasnov) | [Telegram: @mmmiisha07]( https://t.me/mmmiisha07) |
