@@ -97,6 +97,10 @@ Not implemented yet // Ещё не реализовано.
 
 <div align="center"><a href="screens/kmods.png"><img src="screens/opt/kmods.png" width="60%"></a></div>
 
+## Firmware (Прошивка)
+
+<div align="center"><a href="screens/firmware.png"><img src="screens/firmware.png" width="60%"></a></div>
+
 ## Misc (Разное)
 
 <div align="center"><a href="screens/misc.png"><img src="screens/opt/misc.png" width="60%"></a></div>
