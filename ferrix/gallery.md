@@ -49,6 +49,10 @@ title: FSM - Галерея
 
 <div align="center"><a href="screens/net.png"><img src="screens/opt/net.png" width="60%"></a></div>
 
+## Network Statistics (Статистика сети)
+
+<div align="center"><a href="screens/netstat.png"><img src="screens/opt/netstat.png" width="60%"></a></div>
+
 ## DMI Tables (Таблицы DMI)
 
 <div align="center"><a href="screens/dmi.png"><img src="screens/opt/dmi.png" width="60%"></a></div>
