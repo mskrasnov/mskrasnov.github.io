@@ -4,63 +4,72 @@ permalink: /resume.html
 title: Резюме
 ---
 
-[Краткая версия в формате *.pdf](resume.pdf) | [Более полная версия в формате *.pdf](resume-full.pdf)
+# Михаил Краснов
 
-**Желаемая должность:** стажёр / junior-разработчик (Rust, Linux, Python) или DevOps<br>**Место работы:** готов работать удалённо или очно в Дзержинске.<br>**Занятость:** полная, частичная, стажировка
+**Junior Software Developer** | Дзержинск/Нижний Новгород/удалённо
 
-## Контакты
-| <mskrasnov07@ya.ru> | GitHub: [@mskrasnov](https://github.com/mskrasnov) | Telegram: [@mmmiisha07]( https://t.me/mmmiisha07) |
+Желаемая должность: стажёр / junior-разработчик (Rust, Linux, Python)<br>
+Занятость: полная/частичная/стажировка<br>
+GitHub: [mskrasnov](https://github.com/mskrasnov)<br>
+Почта: <mskrasnov07@ya.ru><br>
+Telegram: [mmmiisha07](https://telegram.me/mmmiisha07)
 
-## О себе
-Студент IT-направления (2 курс). Занимаюсь программированием под Linux, разработкой на Rust. Имею опыт создания полноценных open source проектов ([FSM](https://github.com/mskrasnov/FSM), [LFA](https://github.com/Linux-for-ARM/handbook), [TimeKeeper](https://github.com/TimeKeeperSoft/TimeKeeper)). Самостоятельно разбираюсь в новых технологиях, читаю исходный код и документацию. Ищу стажировку или junior-позицию, где смогу применять навыки разработки и углубляться в backend/системное программирование.
+Студент 3 курса направления "Прикладная информатика" с опытом самостоятельной разработки и сопровождения open-source проектов.
 
-## Навыки
-
-### Языки программирования и технологии
-- **Rust** - базовый/средний уровень; понимание концепций асинхронного программирования, владения, работа с крейтами, написание простейших FFI-интерфейсов над функциями C;
-- **Python** - базовый уровень (написание простых скриптов для автоматизации);
-- **C** - основы (указатели, работа с памятью; изучал в вузе);
-- **bash** - написание скриптов для автоматизации задач и администрирования Linux;
-- **git** - повседневное использование;
-
-### Операционные системы и окружение
-- **Linux** - уверенный пользователь. Умею работать в терминале, имею опыт сборки собственного дистрибутива Linux по LFS, автор русскоязычного перевода CLFS Embedded - LFA.
-- **Windows** - пользовательский уровень. Умею выполнять базовые задачи по настройке и администрированию ОС.
-
-### Инструменты и технологии
-- Умею собирать `deb`-пакеты для операционной системы Linux (Debian, Ubuntu и их производные);
-- Умею выполнять кросс-компиляцию программного обеспечения, используя Linux и инструментарий проекта GNU (GNU GCC, GNU Binutils, GNU make, etc.);
-- **Docker** - имею базовые знания о работе с ним;
-
-### Анализ данных и офисные приложения
-- **Excel** - продвинутый уровень (формулы, Power Query, VBA);
-- **Power BI** - базовый уровень, умею создавать дашборды, получать данные с помощью Power Query и обрабатывать их на языке DAX;
+Разрабатываю программное обеспечение на Rust и Python, имею опыт создания desktop-приложений для Windows и Linux, работы с системными API (Linux), автоматизации сборки и CI/CD. Самостоятельно довожу проекты от идеи и прототипа до готовых релизов.
 
 ## Проекты
 
 ### FSM (Ferrix System Monitor)
-<small><a href="https://github.com/mskrasnov/FSM">GitHub repo</a> | <b>Стек технологий:</b> Rust, iced, DBus, systemd, Linux</small>
 
-FSM - современная программа для мониторинга и отображения информации о ПО и АО компьютера, работающего под управлением ОС Linux. В рамках этого проекта самостоятельно реализовал практически весь функционал для получения данных о ПО/АО (парсеры системных файлов с инф-цией, парсер данных EDID, etc.), за исключением парсера таблиц DMI.
+<small>Rust · iced · Linux API · Docker · GitHub Actions · CI/CD</small>
+[![All downloads](https://img.shields.io/github/downloads/mskrasnov/fsm/total)](https://github.com/mskrasnov/FSM/releases) [![Star this repo!](https://img.shields.io/github/stars/mskrasnov/fsm?style=social)](https://github.com/mskrasnov/FSM/stargazers)
 
-> 480+ коммитов, 100 скачиваний, 23 звезды
+Desktop-приложение для мониторинга и диагностики Linux-систем. Самостоятельно разрабатываю и поддерживаю с 2025 года. Реализовал получение и отображение данных о процессорах, памяти, файловых системах, аккумуляторе(ах), прошивке и других компонентах системы. Разрабатываю систему мониторинга с графиками загрузки CPU, использования памяти и в будущем других параметров. Настроил сборку пакетов (deb, rpm, AppImage) в окружении Docker.
 
-### LFA (Linux for ARM)
-<small><a href="https://github.com/Linux-for-ARM/handbook">GitHub repo</a> | <b>Стек технологий:</b> markdown, mdbook</small>
+[Репозиторий GitHub](https://github.com/mskrasnov/FSM)
 
-Русскоязычное руководство по сборке Linux-дистрибутива (его кросс-компиляции) из исходного кода для ARM-устройств. Вольный перевод CLFS Embedded, которое уже много лет не развивается. Я обновил версии пакетов и добавил более подробные сведения о сборке ядра, загрузчика U-Boot, предоставил расширенную информацию как в целом о дистрибутивах Linux, так и о ARM-специфичных вещах (например, файлах Device Tree);
+### TimeKeeper
 
-> 293 коммита, 7 звёзд
+<small>Rust · iced · Windows · Linux</small>
+[![All downloads](https://img.shields.io/github/downloads/TimeKeeperSoft/TimeKeeper/total)](https://github.com/mskrasnov/FSM/releases) [![Star this repo!](https://img.shields.io/github/stars/mskrasnov/fsm?style=social)](https://github.com/TimeKeeperSoft/TimeKeeper/stargazers)
 
-### Другие проекты
-- **TimeKeeper** ([GitHub](https://github.com/TimeKeeperSoft/TimeKeeper)) - простой pomodoro-таймер (Rust, iced, Windows/Linux);
-- **resistor** ([GitHub](https://github.com/mskrasnov/resistor)) - консольный кроссплатформенный калькулятор 4-полосных резисторов (Rust, cursive, Windows/Linux);
+Простой трекер рабочего времени; более упрощённая версия pomodoro-таймера. Приложение кроссплатформенное, есть версии для Windows (установочный `*.msi`-пакет, статический `*.exe`-билд) и Linux (установочный `*.deb`-пакет для Debian 12+, портативная `*.AppImage`-версия, статически собранный бинарник). От аналогов (pomodorolm, flowkeeper) отличается куда более низким потреблением ресурсов ПК (5 Мб в установленном виде на жёстком диске, 9-15 Мб ОЗУ).
 
-## Опыт работы
-Коммерческий опыт работы отсутствует, однако в рамках личных и учебных проектов приобрёл навыки, описанные выше.
+[Репозиторий GitHub](https://github.com/TimeKeeperSoft/TimeKeeper)
+
+### Linux for ARM
+
+[![All downloads](https://img.shields.io/github/downloads/Linux-for-ARM/handbook/total)](https://github.com/mskrasnov/FSM/releases) [![Star this repo!](https://img.shields.io/github/stars/mskrasnov/fsm?style=social)](https://github.com/Linux-for-ARM/handbook/stargazers)
+
+Русскоязычный вольный перевод руководства CLFS Embedded (аналог Linux from scratch, но для сборки дистрибутива Linux для встраиваемых систем), в котором обновил версии предлагаемого к сборке ПО и значительно расширил сведения по сборке ядра Linux и загрузчика U-Boot.
+
+[Репозиторий GitHub](https://github.com/Linux-for-ARM/handbook)
+
+## Навыки
+
+Языки программирования:
+
+- **Rust** - основной язык, на котором веду разработку;
+- **Python** - знаю основы языка, пишу в основном скрипты для автоматизации рутинных действий во время разработки других проектов;
+- **C** - базовые знания (в т.ч. указатели, динамическая память);
+- **Bash** - для написания скриптов в Linux;
+
+Разработка:
+
+- `git`;
+- docker;
+- `cargo`;
+- GNU Make;
+- Основы алгоритмизации и структур данных;
+
+Дополнительно:
+
+- Знаю основы Linux; занимался сборкой своего Linux-дистрибутива по LFS;
+- Кросс-компиляция программного обеспечения;
+- Сборка `deb` и `AppImage`-пакетов;
+- Сборка `rpm`-пакетов посредством `cargo-rpm`;
 
 ## Образование
-ННГУ, "Прикладная информатика" (09.03.03) - 2024-н.в.; 2 курс
 
-## Языки
-Русский язык - родной, английский - на уровне чтения документации.
+Прикладная информатика: ННГУ им. Лобачевского, 2024-н.в., 3 курс.
