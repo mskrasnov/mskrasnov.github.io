@@ -32,7 +32,7 @@ Desktop-приложение для мониторинга и диагности
 ### TimeKeeper
 
 <small>Rust · iced · Windows · Linux</small>
-[![All downloads](https://img.shields.io/github/downloads/TimeKeeperSoft/TimeKeeper/total)](https://github.com/mskrasnov/FSM/releases) [![Star this repo!](https://img.shields.io/github/stars/mskrasnov/fsm?style=social)](https://github.com/TimeKeeperSoft/TimeKeeper/stargazers)
+![All downloads](https://img.shields.io/github/downloads/TimeKeeperSoft/TimeKeeper/total) ![](https://img.shields.io/github/stars/TimeKeeperSoft/TimeKeeper?style=social)
 
 Простой трекер рабочего времени; более упрощённая версия pomodoro-таймера. Приложение кроссплатформенное, есть версии для Windows (установочный `*.msi`-пакет, статический `*.exe`-билд) и Linux (установочный `*.deb`-пакет для Debian 12+, портативная `*.AppImage`-версия, статически собранный бинарник). От аналогов (pomodorolm, flowkeeper) отличается куда более низким потреблением ресурсов ПК (5 Мб в установленном виде на жёстком диске, 9-15 Мб ОЗУ).
 
@@ -40,7 +40,7 @@ Desktop-приложение для мониторинга и диагности
 
 ### Linux for ARM
 
-[![All downloads](https://img.shields.io/github/downloads/Linux-for-ARM/handbook/total)](https://github.com/mskrasnov/FSM/releases) [![Star this repo!](https://img.shields.io/github/stars/mskrasnov/fsm?style=social)](https://github.com/Linux-for-ARM/handbook/stargazers)
+![All downloads](https://img.shields.io/github/downloads/Linux-for-ARM/handbook/total) ![Star this repo!](https://img.shields.io/github/stars/Linux-for-ARM/handbook?style=social)
 
 Русскоязычный вольный перевод руководства CLFS Embedded (аналог Linux from scratch, но для сборки дистрибутива Linux для встраиваемых систем), в котором обновил версии предлагаемого к сборке ПО и значительно расширил сведения по сборке ядра Linux и загрузчика U-Boot.
 
