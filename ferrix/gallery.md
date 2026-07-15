@@ -49,6 +49,10 @@ title: FSM - Галерея
 
 <div align="center"><a href="screens/net.png"><img src="screens/opt/net.png" width="60%"></a></div>
 
+## Network Statistics (Статистика сети)
+
+<div align="center"><a href="screens/netstat.png"><img src="screens/opt/netstat.png" width="60%"></a></div>
+
 ## DMI Tables (Таблицы DMI)
 
 <div align="center"><a href="screens/dmi.png"><img src="screens/opt/dmi.png" width="60%"></a></div>
@@ -96,6 +100,10 @@ Not implemented yet // Ещё не реализовано.
 ## Kernel Modules (Модули ядра)
 
 <div align="center"><a href="screens/kmods.png"><img src="screens/opt/kmods.png" width="60%"></a></div>
+
+## Firmware (Прошивка)
+
+<div align="center"><a href="screens/firmware.png"><img src="screens/firmware.png" width="60%"></a></div>
 
 ## Misc (Разное)
 
