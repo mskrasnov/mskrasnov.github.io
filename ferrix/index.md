@@ -28,9 +28,10 @@ FSM - простой системный профайлер для совреме
 
 ## Скачать
 
-<a href="https://github.com/mskrasnov/FSM/releases/download/v0.7.1/Ferrix.System.Monitor-v0.7.1-x86_64.AppImage"><img src="./fxapp/data/download-appimage-banner.svg" width="364" height="112"></a>
-
-**[(другие типы пакетов здесь)](https://github.com/mskrasnov/FSM/releases/latest)**
+<div align="center">
+  <a href="https://github.com/mskrasnov/FSM/releases/download/v0.7.1/Ferrix.System.Monitor-v0.7.1-x86_64.AppImage"><img src="https://raw.githubusercontent.com/mskrasnov/FSM/refs/heads/new_architecture_experiment/fxapp/data/download-appimage-banner.svg" width="364" height="112"></a>
+  <p><b>другие типы пакетов <a href="https://github.com/mskrasnov/FSM/releases/latest">здесь</a></b></p>
+</div>
 
 На данный момент собираются следующие типы пакетов:
 
@@ -52,15 +53,18 @@ FSM - простой системный профайлер для совреме
 
 <div align="center"><a href="assets/tables.png"><img src="assets/opt/tables.png" width="50%"></a></div>
 
-<div align="center"><a href="screens/sysmon-new.png"><img src="screens/opt/sysmon-new.png" width="50%"></a></div>
-
 В отличие от Hardinfo и аналогов, в Ferrix почти всё отображается в виде лент с таблицами. Для некоторых пунктов таблицы приведены всплывающие подсказки с описанием параметров - просто наведите мышь на нужный пункт таблицы.
 
 ### Поддержка современных технологий
 
-<div align="center"><a href="assets/systemd.png"><img src="assets/opt/systemd.png" width="50%"></a></div>
+<div align="center">
+  <a href="assets/systemd.png"><img src="assets/opt/systemd.png" width="50%"></a>
+  <a href="screens/firmware.png"><img src="screens/firmware.png" width="50%"></a>
+</div>
 
 В работе над Ferrix сделан упор на поддержку современных технологий. Пока что эта программа умеет отображать сведения о сервисах `systemd`. Интеграция с этим системным менеджером всё ещё далека от завершения - в скором времени я планирую добавить ещё ряд функций, связанных с `systemd`.
+
+Кроме того, FSM — одна из немногих программ, которая умеет отображать настройки UEFI компьютера.
 
 ---
 
