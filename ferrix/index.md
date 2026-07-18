@@ -7,6 +7,8 @@ title: FSM - Простой системный монитор для Linux
   <h1>FSM - Ferrix System Monitor</h1>
   <h3>Ещё один системный профайлер для Linux</h3>
 
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![Rust](https://img.shields.io/badge/Made%20with-Rust-orange?logo=rust)](https://www.rust-lang.org/) [![Iced](https://img.shields.io/badge/Made%20with-iced-blue?logo=iced)](https://iced.rs) [![GitHub Release](https://img.shields.io/github/v/release/mskrasnov/ferrix?logo=github&color=lightgray)](https://github.com/mskrasnov/ferrix/releases) [![Support me](https://img.shields.io/badge/Donate_me-Boosty-orange)](https://boosty.to/mskrasnov) [![All downloads](https://img.shields.io/github/downloads/mskrasnov/fsm/total)](https://github.com/mskrasnov/FSM/releases) [![Star this repo!](https://img.shields.io/github/stars/mskrasnov/fsm?style=social)](https://github.com/mskrasnov/FSM/stargazers)
+
   <p><b>
     <a href="https://github.com/mskrasnov/FSM/releases/latest">Скачать последнюю версию</a> |
     <a href="https://github.com/mskrasnov/FSM">GitHub проекта</a> с более подробными сведениями |
@@ -18,13 +20,17 @@ title: FSM - Простой системный монитор для Linux
 
 ---
 
-FSM - простой системный профайлер для современных дистрибутивов Linux, находится на ранней стадии разработки, но уже сейчас реализована б*о*льшая часть функционала.
+FSM - простой системный профайлер для современных дистрибутивов Linux. Это программа, которая отображает сведения о программном и аппаратном обеспечении компьютера. Она предназначена для современных дистрибутивов ОС Linux.
 
-<div align="center"><a href="assets/antiX.png"><img src="assets/antiX.png" width="50%"></a></div>
+<div align="center"><a href="assets/antiX.png"><img src="assets/antiX.png" width="65%"></a></div>
+
+Совместима с Debian версии 11 и выше, Ubuntu версии 22.04 и выше, Fedora 42 и выше. Может работать и с другими дистрибутивами Linux, вышедшими не ранее 2022 года.
 
 ## Скачать
 
-**[Скачать последнюю версию](https://github.com/mskrasnov/FSM/releases/latest)**
+<a href="https://github.com/mskrasnov/FSM/releases/download/v0.7.1/Ferrix.System.Monitor-v0.7.1-x86_64.AppImage"><img src="./fxapp/data/download-appimage-banner.svg" width="364" height="112"></a>
+
+**[(другие типы пакетов здесь)](https://github.com/mskrasnov/FSM/releases/latest)**
 
 На данный момент собираются следующие типы пакетов:
 
