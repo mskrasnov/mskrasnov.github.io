@@ -45,8 +45,28 @@ a:hover, a:active {
 .func-img {
     width: 314px;
     height: 200px;
+    flex-shrink: 0;
 }
 
 .donation {
     color: red;
+}
+
+@media (max-width: 768px) {
+    .function {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .func-img {
+        width: 100%;
+        max-width: 314px;
+        height: auto;
+        align-self: center;
+    }
+    
+    .function span {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
 }
