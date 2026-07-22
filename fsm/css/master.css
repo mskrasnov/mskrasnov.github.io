@@ -28,12 +28,12 @@ a {
     color: #fb4934
 }
 
-a:hover, a:active {
-    color: #f8311b;
-}
-
 a:visited {
     color: #f48d52e8;
+}
+
+a:hover, a:active {
+    color: #fc0000;
 }
 
 .function {
