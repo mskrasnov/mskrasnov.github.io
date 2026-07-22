@@ -36,7 +36,7 @@ FSM - простой системный профайлер для совреме
 
 <div align="center">
   <a href="https://github.com/mskrasnov/FSM/releases/download/v0.7.1/Ferrix.System.Monitor-v0.7.1-x86_64.AppImage"><img src="https://raw.githubusercontent.com/mskrasnov/FSM/refs/heads/new_architecture_experiment/fxapp/data/download-appimage-banner.svg" width="364" height="112"></a>
-  <p><b>другие типы пакетов <a href="https://github.com/mskrasnov/FSM/releases/latest">здесь</a></b></p>
+  <p><b>другие типы пакетов <a href="https://github.com/mskrasnov/FSM/releases/latest">здесь</a>.</b></p>
 </div>
 
 На данный момент собираются следующие типы пакетов:
