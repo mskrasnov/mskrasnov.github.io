@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>FSM — Swiss Army Knife for Linux hardware diagnostics</title>
+
+    <meta name="description" content="A modern program for getting information about computer hardware and installed software.">
+    <meta name="keywords" content="FSM, system monitor, системный монитор, aida64, hwinfo, linux, systemd, rust, iced, profiler">
+    <meta name="author" content="Michail Krasnov <mskrasnov07@ya.ru>">
+    <meta name="designer" content="Michail Krasnov <mskrasnov07@ya.ru>">
+    <meta name="copyright" content="Michail Krasnov <mskrasnov07@ya.ru>">
+    <meta name="owner" content="Michail Krasnov <mskrasnov07@ya.ru>">
+
+    <meta name="og:site_name" content="FSM — Swiss Army Knife for Linux hardware diagnostics">
+    <meta name="og:title" content="FSM System Profiling tool">
+    <meta name="og:description" content="A modern program for getting information about computer hardware and installed software.">
+
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:title" content="FSM System Profiling tool">
+    <meta property="twitter:description" content="A modern program for getting information about computer hardware and installed software.">
+    <meta property="twitter:domain" content="mskrasnov.github.io">
+
+    <link rel="icon" href="fsm.png" type="image/png">
+    <link href="css/master.css" rel="stylesheet">
+  </head>
+  <body>
+    <div align="center" class="main">
+      <h1 style="padding-top: 16px;"><img src="./fsm.png" height="25">
+        FSM — Swiss Army Knife for Linux hardware diagnostics</h1>
+      <hr>
+      [<a href="https://github.com/mskrasnov/FSM/releases/latest">Latest version</a>] I
+      [<a href="https://github.com/mskrasnov/FSM">GitHub</a>] I
+      [<a href="https://boosty.to/mskrasnov">Donate</a>] I
+      [<a href="./gallery.html">Screenshots</a>] I
+      [<a href="./docs.html">Documentation</a>]
+      <hr>
+    </div>
+
+    <div class="main" style="text-align: justify;">
+      <p style="padding-top: 16px;">FSM is a simple system profiler for modern Linux distributions.
+      It is a program that displays information about a computer's software and hardware. It is
+      designed for modern Linux systems.</p>
+
+      <div align="center">
+        <a href="assets/antiX.png"><img src="assets/antiX.png" width="65%"></a>
+      </div>
+
+      <p style="display: flex; align-items: center; gap: 12px;">
+        <b>Actual FSM version:</b> <span id="content">.
+      </p>
+      <!-- <script src="./get_latest_release.js"></script> -->
+
+      <div align="center">
+        <a href="https://github.com/mskrasnov/FSM/releases/download/v0.7.1/Ferrix.System.Monitor-v0.7.1-x86_64.AppImage">
+          <img
+            src="https://raw.githubusercontent.com/mskrasnov/FSM/refs/heads/new_architecture_experiment/fxapp/data/download-appimage-banner.svg"
+            width="364" height="112"
+            style="border-radius: 5px;">
+        </a>
+        <p><b>another package types
+          <a href="https://github.com/mskrasnov/FSM/releases/latest">here</a>.</b></p>
+        <p><a href="https://github.com/mskrasnov/FSM/releases">
+            <img src="https://img.shields.io/github/downloads/mskrasnov/fsm/total"></a>
+          <a href="https://github.com/mskrasnov/FSM/stargazers">
+            <img src="https://img.shields.io/github/stars/mskrasnov/fsm?style=social"></a>
+          <a href="https://www.gnu.org/licenses/gpl-3.0">
+            <img src="https://img.shields.io/badge/License-GPLv3-blue.svg"></a></p>
+      </div>
+
+      <p>Compatible with Debian version 11 and later, Ubuntu version 22.04 and later, and Fedora 42
+      and later. It may also work with other Linux distributions released in 2022 or later.</p>
+      <p>Over the past year, «FSM» has been significantly improved, adapted to modern conditions,
+      and equipped with new features. But even more new ideas have emerged that are yet to be
+      implemented.</p>
+
+      <h3>System Passport</h3>
+      <div class="function">
+        <img loading="lazy" src="./assets/opt/dashboard.png" class="func-img">
+        <span>The FSM interface is divided into two part: the left side of the window contains a
+        sidebar with options for selecting which page to display, while the right side displays the
+        actual content associated with that page. The home page is System Passport (Dashboard), which
+        displays key system information in the form of cards. Clicking on each card opens the
+        corresponding page with more detailed information. The home page is designed to provide an
+        overview of the system's current status.</span>
+      </div>
+
+      <h3>Simple information representation</h3>
+      <div class="function">
+        <img loading="lazy" src="./assets/tables.png" class="func-img">
+        <span>Unlike Hardinfo and similar tools, FSM displays almost everything in the form of
+        table-based panels. Many tables are dynamically updated as the metrics they contain
+        change. You can copy text from these tables — click on the desired cell to copy its contents
+        to the clipboard.</span>
+      </div>
+
+      <h3>Modern technologies support</h3>
+      <div class="function">
+        <img loading="lazy" src="./screens/firmware.png" class="func-img">
+        <span>The development of FSM has focused on supporting modern technologies. The program can
+        display a list of <tt>systemd</tt> services currently running. Integration with this system
+        manager is still far from complete — I plan to add a number of additional systemd-related
+        features in the near future. However, this does not mean that FSM is strictly dependent on
+        <tt>systemd</tt>; it can also run on systems without it. Furthermore, FSM is one of the few
+        programs capable of displaying UEFI settings.</span>
+      </div>
+
+      <h3>CPU and RAM utilization charts</h3>
+      <div class="function">
+        <img loading="lazy" src="./assets/sysmon.png" class="func-img">
+        <span>To access the system's health over time, use the CPU and RAM utilization charts. They
+        are updated in real time. At the bottom of each chart is a legend with color-coded
+        indicators: white text indicates normal usage, yellow indicates high but not critical usage,
+        and red indicates resource usage exceeding 95%.</span>
+      </div>
+
+      <h3>System requirements</h3>
+      <ul>
+        <li>OS: modern Linux with <tt>glibc</tt> >= 2.36, Xorg or Wayland, and, optionally,
+            <tt>dbus</tt> and <tt>systemd</tt>.</li>
+        <li>CPU architecture: <tt>amd64</tt>, <tt>i386</tt> or <tt>aarch64</tt> (ARM-v8-A).</li>
+        <li>RAM: 512 Mb</li>
+        <li>Free disk space: 500 Mb</li>
+      </ul>
+
+      <hr><h2 class="donation">Support development</h2>
+      <p>I'm developing this program on my own in my free time between studying and working, without
+         reveiving any payment for it. If you like my program or want to thank me, you can contribute
+         whatever you can to its development and support by sending any amount to Boosty or to my
+         bank card.</p>
+      <blockquote>
+        <p><span class="donation">Boosty:</span> <a href="https://boosty.to/mskrasnov">@mskrasnov</a>
+        <br><span class="donation">Банковская карта:</span> <b>Сбербанк (Россия)</b>
+          2202 2062 5233 5406</p>
+      </blockquote>
+    </div>
+
+    <div class="footer" style="padding-top: 10px;"><small>
+      © 2025-2026 Michail Krasnov &lt;<a href="mailto:mskrasnov07@ya.ru">mskrasnov07@ya.ru</a>&gt; |
+        <a href="https://github.com/mskrasnov/FSM">GitHub</a> |
+        <a href="https://www.appimagehub.com/p/2365255">AppImageHub</a>
+    </small></div>
+  </body>
+</html>

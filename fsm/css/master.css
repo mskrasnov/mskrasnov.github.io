@@ -1,0 +1,52 @@
+body {
+    background-color: #282828;
+    color: #fbf1c7;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", 
+                 Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.main {
+    background-color: #414141;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 16px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+}
+
+.footer {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+h1, h2, h3 {
+    color: #fabd2f;
+}
+
+a {
+    color: #fb4934
+}
+
+a:hover, a:active {
+    color: #f8311b;
+}
+
+a:visited {
+    color: #f48d52e8;
+}
+
+.function {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.func-img {
+    width: 314px;
+    height: 200px;
+}
+
+.donation {
+    color: red;
+}
