@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>FSM — Documentation — Troubleshooting</title>
+
+    <meta name="description" content="A modern program for getting information about computer hardware and installed software.">
+    <meta name="keywords" content="FSM, system monitor, системный монитор, aida64, hwinfo, linux, systemd, rust, iced, profiler">
+    <meta name="author" content="Michail Krasnov <mskrasnov07@ya.ru>">
+    <meta name="designer" content="Michail Krasnov <mskrasnov07@ya.ru>">
+    <meta name="copyright" content="Michail Krasnov <mskrasnov07@ya.ru>">
+    <meta name="owner" content="Michail Krasnov <mskrasnov07@ya.ru>">
+
+    <meta name="og:site_name" content="FSM — Documentation — Troubleshooting">
+    <meta name="og:title" content="FSM System Profiling tool">
+    <meta name="og:description" content="A modern program for getting information about computer hardware and installed software.">
+
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:title" content="FSM System Profiling tool">
+    <meta property="twitter:description" content="A modern program for getting information about computer hardware and installed software.">
+    <meta property="twitter:domain" content="mskrasnov.github.io">
+
+    <link rel="icon" href="../fsm.png" type="image/png">
+    <link href="../css/master.css" rel="stylesheet">
+  </head>
+  <body>
+    <div align="center" class="main">
+      <h1 style="padding-top: 16px;"><img src="../fsm.png" height="25">
+        FSM — Swiss Army Knife for Linux hardware diagnostics</h1>
+      <hr>
+      [<a href="../index.html">Home</a>] I
+      [<a href="https://github.com/mskrasnov/FSM/releases/latest">Latest version</a>] I
+      [<a href="https://github.com/mskrasnov/FSM">GitHub</a>] I
+      [<a href="https://boosty.to/mskrasnov">Donate</a>] I
+      [<a href="../gallery.html">Screenshots</a>] I
+      [<a href="../docs.html">Documentation</a>]
+      <hr>
+    </div>
+
+    <div class="main" style="text-align: justify;">
+      <h1 style="padding-top: 10px;">Troubleshooting</h1>
+
+      <h2 id="appimage-polkit">FSM Portable (AppImage) displays an error when opening the DMI,
+        Kernel Modules, or Firmware pages [<a href="#appimage-polkit">link</a>]</h2>
+      <p><span class="donation">&gt;</span> When clicking on the DMI Tables, Kernel Modules, or
+        Firmware pages in the FSM AppImage build, the following error is displayed:</p>
+      <code><pre>[ferrix-polkit] Non-zero return code:
+ERROR: ld.so: object 'libapprun_hooks.so' from LD_PRELOAD cannot be preloaded (cannot open shared opkect file): ignored.
+Error executing /home/${USER}/.local/bin/ferrix-polkit: No such file or directory</pre></code>
+
+      <p><span class="answer">&gt;</span> To fix this error, download the correct
+        <tt>ferrix-polkit</tt> binary file and place it in the appropriate directory:</p>
+      <code><pre>wget https://github.com/mskrasnov/FSM/releases/download/v0.7.1/ferrix-polkit
+chmod +x ./ferrix-polkit
+mkdir -pv ~/.local/bin
+mv -v ./ferrix-polkit ~/.local/bin/</pre></code>
+    </div>
+
+    <div class="footer" style="padding-top: 10px;"><small>
+      © 2025-2026 Michail Krasnov &lt;<a href="mailto:mskrasnov07@ya.ru">mskrasnov07@ya.ru</a>&gt; |
+        <a href="https://github.com/mskrasnov/FSM">GitHub</a> |
+        <a href="https://www.appimagehub.com/p/2365255">AppImageHub</a>
+    </small></div>
+  </body>
+</html>

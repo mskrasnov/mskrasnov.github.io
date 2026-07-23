@@ -52,6 +52,16 @@ a:hover, a:active {
     color: red;
 }
 
+.answer {
+    color: blue;
+}
+
+pre {
+    background-color: #252525;
+    padding: 5px;
+    text-align: left;
+}
+
 @media (max-width: 768px) {
     .function {
         flex-direction: column;
