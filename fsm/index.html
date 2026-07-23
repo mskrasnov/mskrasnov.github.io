@@ -120,6 +120,24 @@
         <li>Free disk space: 500 Mb</li>
       </ul>
 
+      <hr><h2 class="donation" id="troubleshooting">⚠️ TROUBLESHOOTING ⚠️</h2>
+      <h3>FSM Portable (AppImage) displays an error when opening the DMI, Kernel Modules, or Firmware
+        pages</h3>
+
+      <p>Error text:</p>
+      <code><pre>[ferrix-polkit] Non-zero return code:
+ERROR: ld.so: object 'libapprun_hooks.so' from LD_PRELOAD
+cannot be preloaded (cannot open shared opkect file): ignored.
+Error executing /home/${USER}/.local/bin/ferrix-polkit:
+    No such file or directory</pre></code>
+
+      <p>To fix this error, download the correct ferrix-polkit and place it in the appropriate
+        directory:</p>
+      <code><pre>wget https://github.com/mskrasnov/FSM/releases/download/v0.7.1/ferrix-polkit
+chmod +x ./ferrix-polkit
+mkdir -pv ~/.local/bin
+mv -v ./ferrix-polkit ~/.local/bin/</pre></code>
+
       <hr><h2 class="donation">Support development</h2>
       <p>I'm developing this program on my own in my free time between studying and working, without
          reveiving any payment for it. If you like my program or want to thank me, you can contribute
