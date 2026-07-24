@@ -3,6 +3,10 @@ layout: default
 title: FSM - Простой системный монитор для Linux
 ---
 
+<span color=red>Внимание! Это старая версия сайта, которая скоро будет удалена. Для получения актуальной информации о проекте FSM посетите <a href="../fsm/index.html">новую страницу</a>.</span>
+
+<span color=red>Attention! This is an old version of the website that will soon be taken down. For ACTUAL information about the FSM project, please visit the <a href="../fsm/index.html">new page</a>.</span>
+
 <div align="center">
   <h1>FSM - Ferrix System Monitor</h1>
   <h3>Ещё один системный профайлер для Linux</h3>
