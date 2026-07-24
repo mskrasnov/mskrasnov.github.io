@@ -72,6 +72,7 @@ pre {
         width: 100%;
         max-width: 314px;
         height: auto;
+        max-height: 200px;
         align-self: center;
     }
     
