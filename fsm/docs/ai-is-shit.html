@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>FSM — Documentation — AI Is Shit</title>
+
+    <meta name="description" content="A modern program for getting information about computer hardware and installed software.">
+    <meta name="keywords" content="FSM, system monitor, системный монитор, aida64, hwinfo, linux, systemd, rust, iced, profiler">
+    <meta name="author" content="Michail Krasnov <mskrasnov07@ya.ru>">
+    <meta name="designer" content="Michail Krasnov <mskrasnov07@ya.ru>">
+    <meta name="copyright" content="Michail Krasnov <mskrasnov07@ya.ru>">
+    <meta name="owner" content="Michail Krasnov <mskrasnov07@ya.ru>">
+
+    <meta name="og:site_name" content="FSM — Documentation — AI Is Shit">
+    <meta name="og:title" content="FSM System Profiling tool">
+    <meta name="og:description" content="A modern program for getting information about computer hardware and installed software.">
+
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:title" content="FSM System Profiling tool">
+    <meta property="twitter:description" content="A modern program for getting information about computer hardware and installed software.">
+    <meta property="twitter:domain" content="mskrasnov.github.io">
+
+    <link rel="icon" href="../fsm.png" type="image/png">
+    <link href="../css/master.css" rel="stylesheet">
+  </head>
+  <body>
+    <div align="center" class="main">
+      <h1 style="padding-top: 16px;"><img src="../fsm.png" height="25">
+        FSM — Swiss Army Knife for Linux hardware diagnostics</h1>
+      <hr>
+      [<a href="../index.html">Home</a>] I
+      [<a href="https://github.com/mskrasnov/FSM/releases/latest">Latest version</a>] I
+      [<a href="https://github.com/mskrasnov/FSM">GitHub</a>] I
+      [<a href="https://boosty.to/mskrasnov">Donate</a>] I
+      [<a href="../download.html">Download</a>] I
+      [<a href="../gallery.html">Screenshots</a>] I
+      [<a href="../docs.html">Documentation</a>]
+      <hr>
+    </div>
+
+    <div class="main" style="text-align: justify;">
+      <h1 style="padding-top: 10px;">Don't trust the AI search services (Google, Yandex, etc.) to get
+        information about FSM
+      </h1>
+      <small><a href="https://github.com/mskrasnov"><tt>@mskrasnov</tt></a> | 26.07.2026</small>
+
+      <h2>Google</h2>
+      <a href="./assets/google_ai_response.png">
+        <img src="./assets/google_ai_response.png" loading="lazy" width="50%">
+      </a>
+      <p><small>Click on the image to view it larger.</small></p>
+      <p><span class="donation">&gt;</span> Multimedia server information (ALSA, PulseAudio, PipeWire)</p>
+      <p><span class="answer">&gt;</span> No, that's not true. Google's crappy AI generated hallucinations that have nothing
+        to do with reality. In fact, FSM (current version at the time of this article’s
+        publication - <a href="../download.html#v_0_7_1"><tt>v0.7.0</tt></a>) cannot display
+        information about the multimedia subsystem (alsa, PulseAudio, PipeWire). This is
+        planned for the future, but hasn’t even been implemented in the
+        <a href="https://crates.io/crates/ferrix-lib"><tt>ferrix-lib</tt></a> backend yet.</p>
+
+      <h2>Yandex (a Russian search engine)</h2>
+      <a href="./assets/yandex_ai_response1.png">
+        <img src="./assets/yandex_ai_response1.png" loading="lazy" width="50%">
+      </a>
+      <p><small>Click on the image to view it larger.</small></p>
+      <p><span class="donation">1 &gt;</span> Её часто называют «швейцарским ножом» для диагностики
+        системы. (<b>English:</b> It is often referred to as the “Swiss Army knife” of system
+        diagnostics)</p>
+      <p><span class="answer">1 &gt;</span> No one actually calls it that. It's just a slogan that I
+        (the FSM developer) included in the project's README on GitHub, nothing more.</p>
+      <p><span class="answer">2 &gt;</span> This screenshot has nothing to do with FSM. FSM looks
+        completely different and runs only on Linux - not on Windows 7 or any other OS.</p>
+      
+      <a href="./assets/yandex_ai_response2.png">
+        <img src="./assets/yandex_ai_response2.png" loading="lazy" width="50%">
+      </a>
+      <p><small>Click on the image to view it larger.</small></p>
+      <p><span class="donation">3 &gt;</span> Кроме того, программа умеет строить наглядные графики
+        загрузки CPU и RAM, проводить бенчмарки оборудования (CPU, GPU, диски, память),
+        экспортировать собранные данные в HTML или обычный текст, а также очищать систему
+        (кэш, логи, пакеты). (<b>English:</b> In addition, the program can generate clear diagrams
+        of CPU and RAM usage, run hardware benchmarks (CPU, GPU, disks, memory), export the collected data
+        to HTML or plain text, and clean up the system (cache, logs, packets))</p>
+      <p><span class="answer">&gt;</span> Oh, Yandex AI is shit... FSM CANNOT run hardware benchmarks,
+        since it is not designed for benchmarking or testing, but only for displaying information about
+        the computer's software and hardware. Additionally, the data export feature has not yet been
+        implemented. I’m working on it, but I don’t know when I’ll finish. At the moment, the
+        <tt>ferrix-lib</tt> backend already supports data export to JSON and XML, but the frontend
+        (<tt>ferrix-app</tt>) still doesn’t have a GUI for exporting the collected data. And there’s no
+        question of HTML or plain text - I haven’t even started working on that yet.</p>
+      <p><span class="donation">4 &gt;</span> <b>Programming language: Rust 1.88+ (edition 2024)</b></p>
+      <p><span class="answer">&gt;</span> Actual <a href="https://users.rust-lang.org/t/best-community-practices-for-msrv/119566">MSRV</a>
+        is 1.96+.</p>
+      <p><span class="donation">5 &gt;</span> Project site: mskrasnov.github.io/ferrix/</p>
+      <p><span class="answer">&gt;</span> Actual project site is <a href="../index.html">mskrasnov.github.io/fsm/</a>.
+        Actual project GitHub repository is <a href="https://github.com/mskrasnov/FSM">github.com/mskrasnov/FSM</a>.</p>
+      
+      <h2>Conclusion</h2>
+      <p>AI is shit. Don't use it.</p>
+    </div>
+
+    <div class="footer" style="padding-top: 10px;"><small>
+      © 2025-2026 Michail Krasnov &lt;<a href="mailto:mskrasnov07@ya.ru">mskrasnov07@ya.ru</a>&gt; |
+        <a href="https://github.com/mskrasnov/FSM">GitHub</a> |
+        <a href="https://www.appimagehub.com/p/2365255">AppImageHub</a>
+    </small></div>
+  </body>
+</html>
