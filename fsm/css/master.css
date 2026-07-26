@@ -60,6 +60,13 @@ pre {
     background-color: #252525;
     padding: 5px;
     text-align: left;
+    font-family: 'Fira Code';
+    font-size: 12px;
+}
+
+tt {
+    font-family: 'Fira Code';
+    font-size: 14px;
 }
 
 @media (max-width: 768px) {
