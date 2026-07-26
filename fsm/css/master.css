@@ -49,11 +49,11 @@ a:hover, a:active {
 }
 
 .donation {
-    color: red;
+    color: #cc241d;
 }
 
 .answer {
-    color: blue;
+    color: #458588;
 }
 
 pre {
