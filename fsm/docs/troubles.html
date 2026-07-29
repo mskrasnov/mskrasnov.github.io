@@ -47,7 +47,7 @@
       <p><span class="donation">&gt;</span> When clicking on the DMI Tables, Kernel Modules, or
         Firmware pages in the FSM AppImage build, the following error is displayed:</p>
       <code><pre>[ferrix-polkit] Non-zero return code:
-ERROR: ld.so: object 'libapprun_hooks.so' from LD_PRELOAD cannot be preloaded (cannot open shared opkect file): ignored.
+ERROR: ld.so: object 'libapprun_hooks.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
 Error executing /home/${USER}/.local/bin/ferrix-polkit: No such file or directory</pre></code>
 
       <p><span class="answer">&gt;</span> To fix this error, download the correct
@@ -56,6 +56,16 @@ Error executing /home/${USER}/.local/bin/ferrix-polkit: No such file or director
 chmod +x ./ferrix-polkit
 mkdir -pv ~/.local/bin
 mv -v ./ferrix-polkit ~/.local/bin/</pre></code>
+
+      <h2 id="polkit1">FSM displays an error "No `ferrix-polkit` program found"
+        [<a href="#polkit1">link</a>]</h2>
+      <p><span class="donation">&gt;</span> When clicking on the DMI Tables, Kernel Modules, or
+        Firmware pages, the following error is displayed:</p>
+      <code><pre>No `ferrix-polkit` program found</pre></code>
+
+      <p><span class="answer">&gt;</span> You did not install FSM correctly. Reinstall FSM so that
+      the <tt>ferrix-polkit</tt> program, which is part of the <tt>ferrix-app</tt> package, is
+      installed in one of the directories specified in the <tt>PATH</tt> variable.</p>
     </div>
 
     <div class="footer" style="padding-top: 10px;"><small>
