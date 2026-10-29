@@ -1,0 +1,90 @@
+body {
+    background-color: #282828;
+    color: #fbf1c7;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", 
+                 Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.main {
+    background-color: #414141;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 16px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+}
+
+.footer {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+h1, h2, h3 {
+    color: #fabd2f;
+}
+
+a {
+    color: #fb4934
+}
+
+a:visited {
+    color: #f48d52e8;
+}
+
+a:hover, a:active {
+    color: #fc0000;
+}
+
+.function {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.func-img {
+    width: 314px;
+    height: 200px;
+    flex-shrink: 0;
+}
+
+.donation {
+    color: #cc241d;
+}
+
+.answer {
+    color: #458588;
+}
+
+pre {
+    background-color: #252525;
+    padding: 5px;
+    text-align: left;
+    font-family: 'Fira Code';
+    font-size: 12px;
+}
+
+tt {
+    font-family: 'Fira Code';
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .function {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .func-img {
+        width: 100%;
+        max-width: 314px;
+        height: auto;
+        max-height: 200px;
+        align-self: center;
+    }
+    
+    .function span {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+}
